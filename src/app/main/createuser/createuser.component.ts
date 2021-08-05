@@ -37,6 +37,7 @@ export class CreateuserComponent implements OnInit {
     //  this.add.getuser();
     })
     myForm.reset();
+    this.back();
   }
 
   oncancel(myForm:NgForm){
