@@ -45,6 +45,7 @@ export class EditComponent implements OnInit {
 
     })
     myForm.reset();
+    this.back();
   }
   getuserbyid(id:any){
     this.userService.getuserbyid(id.id).subscribe((results)=>{
